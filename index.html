@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Rolling Competition</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fffdf0;
+        }
+
+        header {
+            background: #f7c757;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+            header img {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 50px;
+            }
+
+        nav {
+            background: #ffeb99;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+            nav a {
+                color: #333;
+                text-decoration: none;
+                padding: 1rem;
+                font-weight: bold;
+            }
+
+                nav a:hover {
+                    background: #f7c757;
+                    color: white;
+                }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #fffbe0;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            margin-top: 1rem;
+            background: #f7c757;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                background: #e5a73c;
+            }
+
+        .cheese-icon {
+            width: 40px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="cheese.png" alt="Cheese Icon">
+        <h1>Welcome to the Cheese Rolling Competition</h1>
+        <p>Where fun meets adrenaline, and cheese rolls faster than you can imagine!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#details">Event Details</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#more-info">More Info</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About the Competition</h2>
+            <p>The Cheese Rolling Competition is a historic event held annually at Cooper's Hill in Gloucestershire, England. Participants chase a large round of Double Gloucester cheese down a steep hill, with the first to cross the finish line crowned the champion!</p>
+            <p>What started as a local tradition has gained worldwide fame, drawing adventurers, spectators, and cheese lovers from every corner of the globe.</p>
+        </section>
+        <section id="details" class="section">
+            <h2>Event Details</h2>
+            <ul>
+                <li><strong>Location:</strong> Cooper's Hill, Gloucestershire, England</li>
+                <li><strong>Date:</strong> Last Monday in May</li>
+                <li><strong>Entry Fee:</strong> Free for spectators, minimal fee for participants</li>
+                <li><strong>Pro Tip:</strong> Wear sturdy shoes and bring a sense of humor!</li>
+            </ul>
+        </section>
+        <section id="gallery" class="section gallery">
+            <h2>Gallery</h2>
+            <img src="Cheese1.jpg" alt="Participants chasing cheese">
+            <img src="Cheese2.jpg" alt="Cheese rolling down the hill">
+            <img src="Cheese3.jpg" alt="Crowd cheering at the event">
+            <p>Experience the chaos, fun, and excitement through these glimpses of past events!</p>
+        </section>
+        <section id="more-info" class="section">
+            <h2>More Information</h2>
+            <p>Want to learn more about the event, its history, or how to participate? Click the button below to visit the official event page and dive into the details!</p>
+            <a href="https://www.soglos.com/event/outdoors/gloucestershire-cheese-rolling/17943/" class="btn" target="_blank">
+                Learn More <img src="cheese.png" alt="Cheese Icon" class="cheese-icon">
+            </a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cheese Rolling Competition. Powered by cheese and tradition.</p>
+    </footer>
+</body>
+</html>
